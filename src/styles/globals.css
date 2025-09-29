@@ -1,0 +1,16 @@
+@config "../../tailwind.config.js";
+@import "tailwindcss";
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+@font-face {
+    font-family: 'TestFont';
+    src: url('/src/styles/Aacute.woff') format('woff');
+    font-display: swap;
+}
+
+body {
+    font-family: 'TestFont', sans-serif !important;
+}
